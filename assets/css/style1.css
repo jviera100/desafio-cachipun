@@ -3,15 +3,16 @@
   margin: 0; /*margen*/
   padding: 0; /*espacio entre elementos*/
   border: 0;    /*borde*/
+  color: #000;
 }
 
 html {
   scroll-behavior: smooth;
+ 
 }
 body {
   font-family: 'Cabin', sans-serif;
-  background-color: green;
-  color: #fff;
+  background-image: url("../img/cachipun-fondo2.jpg");  
   overflow-x: hidden; /* Evita el scroll horizontal */
   
 
@@ -21,8 +22,8 @@ body {
   width: 50px;
 }
   /* Estilos para la barra de navegación */
-  #menu {
-    background-color: transparent;     
+  .navbar-toggler-icon {
+    color: #000;    
 }
 
 
@@ -55,8 +56,7 @@ body {
 .carousel-indicators [data-bs-target] {
   border-radius: 50%;/*cambiar rayas a redondas*/
   width: 8px; /* Ajusta el tamaño de los puntos según tu preferencia */
-  height: 8px;
-  background-color: #fff;
+  height: 8px;  
   border: 1px solid #000;
   opacity: 0.5; /* Opacidad de los puntos inactivos */
   transition: opacity 0.6s ease;
@@ -72,17 +72,16 @@ body {
 
 .carousel-indicators .active {
   width: 10px; /* Ajusta el tamaño del punto activo según tu preferencia */
-  height: 10px;
-  background-color: #000;
+  height: 10px;  
   opacity: 1; /* Punto activo completamente visible */
 }
 #iconos {
   justify-content: center;
-  background-color: turquoise;
+  background-image: url("../img/cachipun-fondo.jpg");
   
 }
 .card-body {
-  background-color: turquoise;
+  background-image: url("../img/cachipun-fondo.jpg");
   min-height: 200px;  /*minimo alto texto tarjeta*/
 }
 .card img {
@@ -90,17 +89,13 @@ body {
   max-height: 150px; /*maximo alto imagen tarjeta*/
 }
 
-#form {
-  background-color: #000000
-  color(srgb #dddddd)
-}
 
 .d-inline-block {
-  background-color: turquoise;
-  color: #fff;
+  background-image: url("../img/cachipun-fondo.jpg");
+  
 }
 .footer {
-  background-color: turquoise;
+  background-image: url("../img/cachipun-fondo.jpg");
   font-size: 25px; 
   
   
